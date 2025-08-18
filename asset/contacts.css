@@ -7,23 +7,20 @@ body {
   color: white;
   min-height: 100vh;
 }
-/* Contact Section Layout */
 .contact-container {
   display: flex;
-  justify-content: center;   /* centers horizontally */
-  align-items: center;       /* centers vertically */
-  gap: 80px;                 /* space between left & right */
-  min-height: 100vh;         /* full height for vertical centering */
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  min-height: 100vh;
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   color: white;
   font-family: Arial, sans-serif;
   font-size: 22px;
   text-align: left;
 }
-
-/* Left side */
 .contact-left h1 {
-  font-size: 90px;   /* bigger title */
+  font-size: 90px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -31,13 +28,9 @@ body {
   font-size: 28px;
   color: #ddd;
 }
-
-/* Right side */
 .contact-right {
   font-size: 28px;
 }
-
-/* Email */
 .contact-right .email {
   font-size: 32px;
   margin-bottom: 30px;
@@ -49,8 +42,6 @@ body {
   padding-bottom: 8px;
   font-weight: bold;
 }
-
-/* Socials */
 .socials p {
   margin: 20px 0;
   font-size: 28px;
@@ -65,10 +56,8 @@ body {
 }
 .socials i {
   margin-right: 12px;
-  font-size: 38px;  /* bigger icons */
+  font-size: 38px;
 }
-
-/* Newsletter */
 .newsletter h2 {
   margin: 40px 0 20px;
   font-size: 34px;
@@ -93,47 +82,36 @@ header {
   align-items: center;
   padding: 15px 50px;
 }
-
 .logo {
   font-size: 22px;
   font-weight: bold;
   font-family: "Times New Roman", serif;
 }
-
-/* Centered Nav Links */
 .nav-center {
   flex-grow: 1;
   text-align: center;
 }
-
 .nav-center a {
   margin: 0 20px;
   font-size: 18px;
   color: white;
 }
-/* Logo */
 .logo a {
   font-size: 26px;
   font-weight: bold;
   font-family: "Times New Roman", serif;
   color: white;
 }
-
-/* Centered Nav Links */
 .nav-center a {
   margin: 0 25px;
-  font-size: 22px;   /* 🔹 Bigger text */
-  font-weight: bold; /* 🔹 Bold for emphasis */
+  font-size: 22px;
+  font-weight: bold;
   color: white;
   transition: color 0.3s ease;
 }
-
-/* Hover effect for nav links */
 .nav-center a:hover {
   color: #ddd;
 }
-
-
 .contact-btn {
   background: #ddd;
   color: black;
@@ -141,15 +119,12 @@ header {
   border-radius: 20px;
   font-weight: bold;
 }
-
-/* Main Section */
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 70px);
 }
-
 .profile-container {
   display: flex;
   justify-content: space-between;
@@ -158,8 +133,6 @@ main {
   max-width: 1200px;
   gap: 60px;
 }
-
-/* Profile Image */
 .profile-pic {
   width: 100%;
   max-width: 500px;
@@ -167,24 +140,19 @@ main {
   object-fit: cover;
   box-shadow: 0px 6px 15px rgba(0,0,0,0.6);
 }
-
-/* Info Section */
 .profile-info {
   flex: 1;
   max-width: 600px;
 }
-
 .profile-info .intro {
   font-size: 20px;
   margin-bottom: 15px;
 }
-
 .profile-info h1 {
   font-size: 46px;
   margin-bottom: 20px;
   font-weight: bold;
 }
-
 .profile-info .desc {
   font-size: 18px;
   line-height: 1.8;
@@ -193,5 +161,5 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: space-between; /* keeps footer up */
+  justify-content: space-between;
 }

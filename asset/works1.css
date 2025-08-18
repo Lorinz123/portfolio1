@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #020024, #090979, #000033);
@@ -8,17 +7,15 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
-/* Top Bar with Back Button */
 .top-bar {
   padding: 25px;
 }
 .back-btn {
   background: #3b82f6;
   color: white;
-  padding: 14px 28px;   /* bigger button */
+  padding: 14px 28px;
   border-radius: 12px;
-  font-size: 22px;      /* larger text */
+  font-size: 22px;
   font-weight: bold;
   text-decoration: none;
   transition: background 0.3s ease;
@@ -28,54 +25,47 @@ body {
 }
 .back-btn i {
   margin-right: 10px;
-  font-size: 22px;      /* bigger arrow */
+  font-size: 22px;
 }
-
-/* Main Section */
 .flower-container {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;             /* more spacing */
+  gap: 80px;
   padding: 60px;
   text-align: justify;
 }
-
 .flower-text {
   max-width: 650px;
-  font-size: 22px;       /* larger text */
+  font-size: 22px;
   line-height: 2;
 }
 .flower-logo img {
-  width: 500px;     /* very large logo */
+  width: 500px;
   max-width: 100%;
 }
-
-/* Footer */
 .flower-footer {
   background: #0a0a2a;
   text-align: center;
   padding: 30px;
   border-top: 2px solid #333;
 }
-
 .socials {
   margin-bottom: 15px;
 }
 .socials a {
   color: white;
   margin: 0 15px;
-  font-size: 34px;        /* bigger icons */
+  font-size: 34px;
   transition: color 0.3s ease;
 }
 .socials a:hover {
   color: #ddd;
 }
-
 .flower-footer p {
-  font-size: 18px;        /* larger footer text */
+  font-size: 18px;
   color: #ccc;
   margin-top: 10px;
-  text-align: center;     /* center align text */
+  text-align: center;
 }
