@@ -1,44 +1,74 @@
-*{
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
+/* About Page Styles */
+
+/* Layout wrapper */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;   /* full screen */
 }
-.section1 {
-    height: 100vh;
-    width: 100%;
-    color: rgb(39, 36, 36);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    gap: 20px;
-    padding: 20px;
+
+.main-content {
+  flex: 1;             /* take remaining space */
+  display: flex;
+  align-items: center; /* vertically center profile */
+  justify-content: center;
 }
-.section1-div {
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #3c383c;
-    color: #000000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    text-align: center;
-    opacity: 0.9;
-    border-radius: 10%;
-    max-width: 500px;
-    font-size: larger;
-    padding: 30px;
+
+/* Profile Section */
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;  /* remove big top/bottom margin */
+  gap: 60px;
 }
-.section1-div h3 {
-    font-weight: bold;
-    font-size: 50px;
-    margin-bottom: 10px;
+
+.profile-pic {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.6);
 }
-.section1-div p {
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 20px;
+
+.profile-info {
+  flex: 1;
+  max-width: 600px;
+}
+
+.profile-info .desc {
+  font-size: 20px;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+/* Footer Section */
+footer.features {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  padding: 20px 0;
+  background: #020024;
+  border-top: 2px solid #333;
+}
+
+.feature-box {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border-right: 1px solid #333;
+  font-size: 18px;
+  color: #fff;
+}
+
+.feature-box:last-child {
+  border-right: none;
+}
+
+.feature-box h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }

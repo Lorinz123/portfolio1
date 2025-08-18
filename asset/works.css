@@ -1,0 +1,62 @@
+/* Works Page Styles */
+body {
+  background: linear-gradient(to bottom right, #000428, #004e92);
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 80vh;
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin-bottom: 30px;
+  justify-items: center; /* center items if smaller */
+}
+
+.work-box:nth-child(3) {
+  grid-column: span 2; /* make last image span across both columns */
+  justify-self: center; /* center align it */
+  width: 60%; /* shrink width so it sits in the middle */
+}
+
+.work-box {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+}
+
+.work-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.learn-btn {
+  display: inline-block;
+  background: #1d4ed8;
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.learn-btn:hover {
+  background: #2563eb;
+}
